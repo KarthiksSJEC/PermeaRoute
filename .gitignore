@@ -1,0 +1,26 @@
+# Node dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Python & Backend
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/.env
+
+# Large AI Models
+*.pt
+*.onnx
+*.engine
+backend/models/
+backend/uvh26.pt
+backend/best.pt
+
+# OS & Editor generated files
+.DS_Store
+.vscode/
+.idea/
+*.log
+
