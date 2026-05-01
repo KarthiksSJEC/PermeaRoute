@@ -4,8 +4,6 @@
 
 Unlike traditional GPS systems that rely solely on velocity and congestion density (which treats a road full of yielding bikes the same as a road blocked by buses), PermeaRoute calculates a **Permeability Index (PI)** by categorizing traffic into "Flexible" and "Rigid" vehicles and analyzing physical road gaps.
 
-![PermeaRoute Dashboard](frontend/src/assets/hero.png) *(Note: Add a screenshot of your dashboard here)*
-
 ## 🚀 Features
 
 * **PCU-Weighted Permeability Index:** Weights traffic congestion by Passenger Car Units (PCU). A heavy cluster of yielding two-wheelers results in a high PI (green), while a cluster of buses results in a low PI (red).
@@ -53,5 +51,4 @@ Open `http://localhost:5173` in your browser to view the dispatcher dashboard.
 5. In each Live Stream tab, click "Share Tab & Capture" and select one of the YouTube videos.
 6. The AI will analyze the traffic for 30 seconds, calculate the gaps, and the Planner will announce the **Winning Route** across all tabs automatically.
 
----
-*Built for Hackathon Demo Day.*
+
