@@ -24,3 +24,4 @@ backend/best.pt
 .idea/
 *.log
 
+.project_documentation.md
